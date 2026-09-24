@@ -4,5 +4,5 @@
   "service": "app",
   "workspaceFolder": "/workspace",
   "forwardPorts": [8000, 5432],
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y git-lfs && git lfs install && pip install -r requirements.txt"
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y git-lfs postgresql-client && git lfs install && pip install -r requirements.txt"
 }
